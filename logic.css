@@ -1,0 +1,58 @@
+html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+#myCanvas{
+
+    margin-top: 50px;
+   
+    object-fit: contain;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 30px;
+    border:#ffc773 solid 1px;
+    opacity: 80%;
+}
+#bdy{
+    overflow: hidden;
+     background: url(./con.jpg);
+    height: 900px;
+    width: 1080px;
+    background-size:cover;
+    background-color:#393E46;
+    height: 100%;
+    width: 100%;
+  
+}
+#btn1{
+    height: 4vh;
+    width: 5vw;
+    margin-top: 140px;
+    margin-left: 90px;
+    position: absolute;
+    border-radius: 10px;
+    border:rgb(243, 243, 243) solid 1px;
+    background-color:#948979;
+}
+#headerr{
+height:10vh;
+width:20vw;
+background-color: transparent;
+margin-left: 500px;
+margin-top: 40px;
+justify-content: center;
+align-items: center;
+
+}
+#head2{
+    height:10vh;
+width:50vw;
+background-color: transparent;
+margin-left: 800px;
+margin-top: 20px;
+font-family: serif;
+/* justify-content: center; */
+
+
+}
